@@ -35,6 +35,9 @@ if __name__ == '__main__':
     if mixed:
         input_string = input_string.lower()
     palindrome_list = get_all_palindromes(input_string)
-    print_all_palindromes(palindrome_list)
+    if not palindrome_list:
+       print "There are no palindromes for this string."
+    else:
+        print_all_palindromes(palindrome_list)
 
 
