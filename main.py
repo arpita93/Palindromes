@@ -30,6 +30,10 @@ def print_all_palindromes(results):
 
 if __name__ == '__main__':
     input_string = raw_input("Please enter a string: ")
+    #check if input string is empty or only contains whitespaces
+    if not input_string.strip():
+        print "Please enter a valid string"
+        exit()
     # if there are mixed upper and lower case in the input string, convert them to lower
     mixed = any(l.islower() for l in input_string) and any(l.isupper for l in input_string)
     if mixed:
