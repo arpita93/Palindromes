@@ -18,11 +18,29 @@ To run the program:
  
     Please enter a string :
    
- Enter the string (for example abba) :
+ Enter the string:
  
-    Please enter a string: abba
+    Please enter a string: ABCBAHELLOHOWRACECARAREYOUILOVEUEVOLIIAMAIDOINGGOOD
   
  Expected Output:
  
-    abba,0,4
-    bb,1,2
+    ILOVEUEVOLI,26,11
+    LOVEUEVOL,27,9
+    RACECAR,13,7
+    OVEUEVO,28,7
+    ABCBA,0,5
+    ACECA,14,5
+    VEUEV,29,5
+    IAMAI,37,5
+    BCB,1,3
+    OHO,9,3
+    CEC,15,3
+    ARA,18,3
+    RAR,19,3
+    EUE,30,3
+    AMA,38,3
+    LL,7,2
+    II,36,2
+    GG,46,2
+    OO,48,2
+    
