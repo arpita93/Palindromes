@@ -50,17 +50,21 @@ To run the program:
     
  Output:
  
-    ILOVEUEVOLI,27,11
-    RACECAR,14,7
-    ABCBA,1,5
-    IAMAI,38,5
-    OHO,10,3
-    ARA,19,3
-    RAR,20,3
-    LL,8,2
-    II,37,2
-    GG,47,2
-    OO,49,2
+    ILOVEUEVOLI,26,11
+    RACECAR,13,7
+    ABCBA,0,5
+    IAMAI,37,5
+    OHO,9,3
+    ARA,18,3
+    RAR,19,3
+    LL,7,2
+    II,36,2
+    GG,46,2
+    OO,48,2
+
+   
+  
+
 
 
     
