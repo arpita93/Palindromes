@@ -1,6 +1,6 @@
 # Palindromes
 
-Lists all the palindromes in a given string and prints them along with their starting index and length. 
+This program lists palindromes in a given string and prints them along with their starting index and length. There are two options available. The option "all" will print all the palindromes and the option "exclude" will exclude the palindromes which are substrings of larger ones. The default is "all".  
 
 Palindromes are mirrors around a central character. The algorithm is to go through each character in the string and see if the surrounding characters are equal. If they are, then they are considered a palindrome and added to the list. This needs to be done for both odd length and even length palindromes. The odd length palindromes like 'ama' have one central character, so the left and right characters around it are checked for equality.The even length palindromes like 'bb' have two central characters, so each character in the string along with the one beside it are checked for equality.
 
@@ -43,4 +43,24 @@ To run the program:
     II,36,2
     GG,46,2
     OO,48,2
+ 
+ To use the option exclude: 
+ 
+    python main.py -option exclude
+    
+ Output:
+ 
+    ILOVEUEVOLI,27,11
+    RACECAR,14,7
+    ABCBA,1,5
+    IAMAI,38,5
+    OHO,10,3
+    ARA,19,3
+    RAR,20,3
+    LL,8,2
+    II,37,2
+    GG,47,2
+    OO,49,2
+
+
     
